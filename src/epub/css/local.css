@@ -16,6 +16,18 @@ header{
 
 /* list bullets */
 ul {
-  list-style-type: disc;   /* Default filled circle */
+	list-style-type: disc;
 }
-/* end list bullets*/
+/* end list bullets */
+
+/* bibliography */
+#bibliography ul {
+	list-style-type: none;
+}
+
+#bibliography p {
+	padding-left: 2em;
+	text-indent: -2em;
+	margin-bottom: 1em;
+}
+/* end bibliography */
