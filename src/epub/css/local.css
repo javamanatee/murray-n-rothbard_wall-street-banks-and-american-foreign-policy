@@ -1,2 +1,21 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+
+/* acronyms */
+[epub|type~="z3998:acronym"]{
+	font-variant: all-small-caps;
+}
+/* end acronyms */
+
+/* headers */
+header{
+	font-variant: small-caps;
+	margin-bottom: 1em;
+}
+/* end headers */
+
+/* list bullets */
+ul {
+  list-style-type: disc;   /* Default filled circle */
+}
+/* end list bullets*/
